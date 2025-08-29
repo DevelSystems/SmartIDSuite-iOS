@@ -1,0 +1,393 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SmartIDSuite
+import CommonCrypto
+import CoreData
+import CoreLocation
+import CoreTelephony
+import CryptoKit
+import Darwin
+import Foundation
+import KeychainAccess
+import LocalAuthentication
+@_exported import SmartIDSuite
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class DTTJailbreakDetection {
+  public static func isJailbroken() -> Swift.Bool
+  @objc deinit
+}
+public func MD5(_ input: Swift.String) -> Swift.String
+@_hasMissingDesignatedInitializers final public class TokenSubscription {
+  final public var latestOTP: Swift.String {
+    get
+  }
+  final public var remainingSeconds: Swift.Int {
+    get
+  }
+  final public var totalSeconds: Swift.Int {
+    get
+  }
+  final public var isActive: Swift.Bool {
+    get
+  }
+  final public func cancel()
+  @objc deinit
+}
+public struct AuthChallengeResult {
+  public let success: Swift.Bool
+  public let code: Swift.String
+  public let message: Swift.String
+  public static func ok(_ msg: Swift.String = "OK") -> SmartIDSuite.AuthChallengeResult
+  public static func canceled(_ msg: Swift.String = "Autenticación cancelada") -> SmartIDSuite.AuthChallengeResult
+  public static func notConfigured(_ msg: Swift.String = "Flujo no configurado") -> SmartIDSuite.AuthChallengeResult
+  public static func failed(_ msg: Swift.String = "Fallo de autenticación") -> SmartIDSuite.AuthChallengeResult
+  public static func unavailable(_ msg: Swift.String = "No disponible") -> SmartIDSuite.AuthChallengeResult
+}
+public enum PinMode {
+  case verify, setup
+  public static func == (a: SmartIDSuite.PinMode, b: SmartIDSuite.PinMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol AuthChallengeProvider {
+  func requestBiometric(reason: Swift.String) async -> SmartIDSuite.AuthChallengeResult
+  func requestPIN(reason: Swift.String) async -> SmartIDSuite.AuthChallengeResult
+}
+final public class DefaultAuthChallengeProvider : SmartIDSuite.AuthChallengeProvider {
+  final public var pinFlow: ((SmartIDSuite.PinMode) async -> Swift.Bool)?
+  public init(pinFlow: ((SmartIDSuite.PinMode) async -> Swift.Bool)? = nil)
+  final public func requestBiometric(reason: Swift.String) async -> SmartIDSuite.AuthChallengeResult
+  final public func requestPIN(reason: Swift.String) async -> SmartIDSuite.AuthChallengeResult
+  @objc deinit
+}
+public enum SmartIDSuiteError : Swift.Error {
+  case cryptoKeyMissing
+  case encryptionFailed
+  case decryptionFailed
+  case invalidBase64
+  case http(Swift.Int, data: Foundation.Data?)
+  case notSupported
+}
+public struct SDKInternalError : Swift.Error, Foundation.LocalizedError {
+  public let code: Swift.String
+  public let message: Swift.String
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public init(code: Swift.String = "SDK-0001", message: Swift.String = "Error interno del SDK")
+}
+public struct SmartIDSuiteConfig {
+  public var version: Swift.String
+  public var versionBuild: Swift.String
+  public var baseURL: Foundation.URL
+  public var requestTimeout: Swift.Double
+  public var jsonEncoder: Foundation.JSONEncoder
+  public var jsonDecoder: Foundation.JSONDecoder
+  public static var current: SmartIDSuite.SmartIDSuiteConfig
+}
+public enum UserLoginError : Swift.Error, Foundation.LocalizedError, Swift.Equatable {
+  case invalidParameters
+  case userNotFound
+  case alreadyEnrolled
+  case invalidCredentials
+  case securityClosedSession
+  case serviceUnavailableCore
+  case serviceUnavailableApi
+  case methodUnavailable
+  case bankUnavailable
+  case ciphersUnavailable
+  case unknown(code: Swift.String, message: Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: SmartIDSuite.UserLoginError, b: SmartIDSuite.UserLoginError) -> Swift.Bool
+}
+public struct DeleteTokenRequest : Swift.Encodable {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public let referenceChannel: Swift.String?
+  public init(user: Swift.String, channel: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct DeleteTokenResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public static func == (a: SmartIDSuite.DeleteTokenResponse, b: SmartIDSuite.DeleteTokenResponse) -> Swift.Bool
+}
+public struct GetAuthMethodRequest : Swift.Encodable {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public init(user: Swift.String, channel: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct GetAuthMethodResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public let method: SmartIDSuite.AuthMethod?
+  public static func == (a: SmartIDSuite.GetAuthMethodResponse, b: SmartIDSuite.GetAuthMethodResponse) -> Swift.Bool
+}
+public struct GetRawDataRequest : Swift.Encodable {
+  public let applicationBackendDomain: Swift.String?
+  public init()
+  public init(applicationBackendDomain: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct GetRawDataResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public let deviceInfo: Swift.String
+  public static func == (a: SmartIDSuite.GetRawDataResponse, b: SmartIDSuite.GetRawDataResponse) -> Swift.Bool
+}
+public struct GetTokenRequest : Swift.Encodable {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public init(user: Swift.String, channel: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct GetTokenResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public let otp: Swift.String
+  public let remainingSeconds: Swift.Int
+  public let totalSeconds: Swift.Int
+  public static func == (a: SmartIDSuite.GetTokenResponse, b: SmartIDSuite.GetTokenResponse) -> Swift.Bool
+}
+public struct GetTokenStatusRequest : Swift.Encodable {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public var deviceId: Swift.String?
+  public var referenceChannel: Swift.String?
+  public init(user: Swift.String, channel: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct GetTokenStatusResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public static func == (a: SmartIDSuite.GetTokenStatusResponse, b: SmartIDSuite.GetTokenStatusResponse) -> Swift.Bool
+}
+public struct ReSyncTokenRequest : Swift.Encodable {
+  public let playerId: Swift.String?
+  public init()
+  public init(playerId: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct ReSyncTokenResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public static func == (a: SmartIDSuite.ReSyncTokenResponse, b: SmartIDSuite.ReSyncTokenResponse) -> Swift.Bool
+}
+public struct ReSyncTokenCompleteRequest : Swift.Encodable {
+  public let users: [SmartIDSuite.Users]
+  public let deviceId: Swift.String
+  public let playerId: Swift.String?
+  public let timeStamp: Swift.String
+  public let referenceChannel: Swift.String
+  public init(users: [SmartIDSuite.Users], deviceId: Swift.String, playerId: Swift.String? = "0", timestamp: Swift.String, referenceChannel: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct Users : Swift.Encodable {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public init(user: Swift.String, channel: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum AuthMethod : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case NO_AUTH
+  case FACEPHI
+  case PATTERN
+  case BIOMETRIC
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SmartIDSuite.AuthMethod]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SmartIDSuite.AuthMethod] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct SetAuthMethodRequest : Swift.Encodable {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public var method: Swift.String?
+  public var methodSelected: SmartIDSuite.AuthMethod?
+  public init(user: Swift.String, channel: Swift.String, method: SmartIDSuite.AuthMethod)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct SetAuthMethodResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public static func == (a: SmartIDSuite.SetAuthMethodResponse, b: SmartIDSuite.SetAuthMethodResponse) -> Swift.Bool
+}
+public struct SubscribeTokenRequest {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public init(user: Swift.String, channel: Swift.String)
+}
+public struct SubscribeTokenResponse {
+  public let subscription: SmartIDSuite.TokenSubscription?
+  public let code: Swift.String
+  public let message: Swift.String
+}
+public struct SyncTokenRequest : Swift.Encodable {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public let playerId: Swift.String?
+  public let checkIdentity: Swift.Bool?
+  public let document: Swift.String?
+  public init(user: Swift.String, channel: Swift.String)
+  public init(user: Swift.String, channel: Swift.String, playerId: Swift.String)
+  public init(user: Swift.String, channel: Swift.String, playerId: Swift.String, checkIdentity: Swift.Bool, document: Swift.String)
+  public init(user: Swift.String, channel: Swift.String, checkIdentity: Swift.Bool, document: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct SyncTokenResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public static func == (a: SmartIDSuite.SyncTokenResponse, b: SmartIDSuite.SyncTokenResponse) -> Swift.Bool
+}
+public struct SyncTokenCompleteRequest : Swift.Encodable {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public let checkIdentity: Swift.Bool
+  public let document: Swift.String?
+  public let session: Swift.String
+  public let deviceId: Swift.String
+  public let playerId: Swift.String?
+  public let timeStamp: Swift.String
+  public let referenceChannel: Swift.String
+  public init(user: Swift.String, channel: Swift.String, checkIdentity: Swift.Bool, document: Swift.String? = nil, session: Swift.String, deviceId: Swift.String, playerId: Swift.String? = "0", timestamp: Swift.String, referenceChannel: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct UserLoginRequest : Swift.Encodable {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public let password: Swift.String
+  public var referenceChannel: Swift.String?
+  public init(user: Swift.String, channel: Swift.String, password: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct UserLoginResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public static func == (a: SmartIDSuite.UserLoginResponse, b: SmartIDSuite.UserLoginResponse) -> Swift.Bool
+}
+public struct UserLoginVerificationRequest : Swift.Encodable {
+  public let user: Swift.String
+  public let channel: Swift.String
+  public let sessionId: Swift.String
+  public var referenceChannel: Swift.String?
+  public init(user: Swift.String, channel: Swift.String, sessionId: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct UserLoginVerificationResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public static func == (a: SmartIDSuite.UserLoginVerificationResponse, b: SmartIDSuite.UserLoginVerificationResponse) -> Swift.Bool
+}
+public enum ActionEnum : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case APPROVE
+  case DECLINE
+  case REPPORT
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SmartIDSuite.ActionEnum]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SmartIDSuite.ActionEnum] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ValidateTransactionRequest : Swift.Encodable {
+  public var data: Swift.String
+  public var action: Swift.String?
+  public let actionEnum: SmartIDSuite.ActionEnum
+  public var token: Swift.String?
+  public var referenceChannel: Swift.String?
+  public init(data: Swift.String, actionEnum: SmartIDSuite.ActionEnum)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct ValidateTransactionResponse : Swift.Equatable {
+  public let code: Swift.String
+  public let message: Swift.String
+  public static func == (a: SmartIDSuite.ValidateTransactionResponse, b: SmartIDSuite.ValidateTransactionResponse) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers final public class SmartIDSuiteSDK {
+  public static let shared: SmartIDSuite.SmartIDSuiteSDK
+  final public func startLocation()
+  final public func getRawData(_ request: SmartIDSuite.GetRawDataRequest) async -> SmartIDSuite.GetRawDataResponse
+  final public func userLogin(_ request: SmartIDSuite.UserLoginRequest) async -> SmartIDSuite.UserLoginResponse
+  final public func userLoginVerification(_ request: SmartIDSuite.UserLoginVerificationRequest) async -> SmartIDSuite.UserLoginVerificationResponse
+  final public func syncToken(_ request: SmartIDSuite.SyncTokenRequest) async -> SmartIDSuite.SyncTokenResponse
+  final public func reSyncToken(_ request: SmartIDSuite.ReSyncTokenRequest) async -> SmartIDSuite.ReSyncTokenResponse
+  final public func setAuthMethod(_ request: SmartIDSuite.SetAuthMethodRequest) async -> SmartIDSuite.SetAuthMethodResponse
+  final public func getAuthMethod(_ request: SmartIDSuite.GetAuthMethodRequest) async -> SmartIDSuite.GetAuthMethodResponse
+  final public func getTokenStatus(_ request: SmartIDSuite.GetTokenStatusRequest) async -> SmartIDSuite.GetTokenStatusResponse
+  final public func deleteToken(_ request: SmartIDSuite.DeleteTokenRequest) async -> SmartIDSuite.DeleteTokenResponse
+  final public func validateTransaction(_ request: SmartIDSuite.ValidateTransactionRequest) async -> SmartIDSuite.ValidateTransactionResponse
+  final public func getToken(_ request: SmartIDSuite.GetTokenRequest) async -> SmartIDSuite.GetTokenResponse
+  final public func subscribeToken(_ request: SmartIDSuite.SubscribeTokenRequest) async -> SmartIDSuite.SubscribeTokenResponse
+  final public func configurePINFlow(_ flow: @escaping (SmartIDSuite.PinMode) async -> Swift.Bool)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(Token) public class Token : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension SmartIDSuite.Token {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SmartIDSuite.Token>
+  @objc @NSManaged dynamic public var authMethod: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var channel: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var createdAt: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var secret: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var session: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var tokenName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var type: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var username: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+extension SmartIDSuite.Token : Swift.Identifiable {
+  public typealias ID = Swift.String?
+}
+extension SmartIDSuite.PinMode : Swift.Equatable {}
+extension SmartIDSuite.PinMode : Swift.Hashable {}
+extension SmartIDSuite.AuthMethod : Swift.Equatable {}
+extension SmartIDSuite.AuthMethod : Swift.Hashable {}
+extension SmartIDSuite.AuthMethod : Swift.RawRepresentable {}
+extension SmartIDSuite.ActionEnum : Swift.Equatable {}
+extension SmartIDSuite.ActionEnum : Swift.Hashable {}
+extension SmartIDSuite.ActionEnum : Swift.RawRepresentable {}

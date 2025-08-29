@@ -1,0 +1,6 @@
+framework module SmartIDSuite {
+  umbrella header "SmartIDSuite.h"
+  export *
+
+  module * { export * }
+}
