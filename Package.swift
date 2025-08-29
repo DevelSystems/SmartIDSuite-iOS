@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "SmartId",
-    platforms: [.iOS(.v10)],
+    name: "SmartIDSuite",
+    platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "SmartId",
-            targets: ["SmartId"]),
+            name: "SmartIDSuite",
+            targets: ["SmartIDSuite"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/kishikawakatsumi/KeychainAccess", from: "4.2.1"),
+        .package(url: "https://github.com/kishikawakatsumi/KeychainAccess", from: "4.2.2"),
     ],
     targets: [
             .binaryTarget(
-                name: "SmartId",
-                path: "SmartId.xcframework")
+                name: "SmartIDSuite",
+                path: "SmartIDSuite.xcframework")
         ]
 )
