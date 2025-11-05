@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ebDXam27DykPaz/1IA0I1GK+WCU=
+		FxZXhber2pR5s8FxpiJr7olpLmk=
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5v3rYfrlx0OvzVXepLJZ86qEIr4=
+		/euKroih/m4sbbWCjUjxiEplqFQ=
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UbQHt31rXW1TSCzHEP2Oyt6S5iU=
+		lUHlsFAtfyQabh0wasaI2a5jc8I=
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UbQHt31rXW1TSCzHEP2Oyt6S5iU=
+		lUHlsFAtfyQabh0wasaI2a5jc8I=
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/sKY1yZUJXl+HZPNMy28wiw9XOc=
+		0WmU612G0M0/+GMU5le0vT0d5PY=
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5v3rYfrlx0OvzVXepLJZ86qEIr4=
+		/euKroih/m4sbbWCjUjxiEplqFQ=
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1fGo6CEkmt5tSKcthjbebCA7tlc=
+		M1gygRLr1T2OESQL45SGTLn9bWU=
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1fGo6CEkmt5tSKcthjbebCA7tlc=
+		M1gygRLr1T2OESQL45SGTLn9bWU=
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J5RUTK75pThOeaAb/KaXrx/e+uw=
+		eqlbymo+eC/ujTMrwbQXc7XdxdU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5kSZG9qwJGSIimG7ePCoEBSnNflQyGGAXW5CcImHQ88=
+			1HqGKzG41+w3r9zOJmekWHV/s/0aR46kbXAAhV7JJTg=
 			</data>
 		</dict>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGCWs/m6spvykJt0q5Y6LTdQB1dv2OLxPASnIbR/PSw=
+			lSaOBkGFmcsftGGRbT0U4AiJ3xL/QjDBog1AYTSvw3g=
 			</data>
 		</dict>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -117,28 +117,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGCWs/m6spvykJt0q5Y6LTdQB1dv2OLxPASnIbR/PSw=
+			lSaOBkGFmcsftGGRbT0U4AiJ3xL/QjDBog1AYTSvw3g=
 			</data>
 		</dict>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8pagelnDRbMrtwb+CMhlKjchWZjeuBUOVmexfGk/b+g=
+			b/xbL5UkDZmpPIornEwocnz2BNYQcNm2PkpjQ8aNvOE=
 			</data>
 		</dict>
 		<key>Modules/SmartIDSuite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5kSZG9qwJGSIimG7ePCoEBSnNflQyGGAXW5CcImHQ88=
+			1HqGKzG41+w3r9zOJmekWHV/s/0aR46kbXAAhV7JJTg=
 			</data>
 		</dict>
 		<key>Modules/SmartIDSuite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R/1e+VGHk+2Qpx9LjfveNSoYurqDnf73p3r0HJEigIA=
+			XIZSxxvxG4n9SQtt3j2cWivzSzATwU7p2Dc/ZAgDbV0=
 			</data>
 		</dict>
 		<key>Modules/SmartIDSuite.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -152,14 +152,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R/1e+VGHk+2Qpx9LjfveNSoYurqDnf73p3r0HJEigIA=
+			XIZSxxvxG4n9SQtt3j2cWivzSzATwU7p2Dc/ZAgDbV0=
 			</data>
 		</dict>
 		<key>Modules/SmartIDSuite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3bQx/aeNHodhITp1dvmtQWNRgYtJPi2njnCUDDw6Hn8=
+			ObnYUmqxoXQvie3aFfqfDg880CFBs5WAkVAft54DYy4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -11419,8 +11419,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SmartIDSuiteSDK",
-        "printedName": "SmartIDSuiteSDK",
+        "name": "SmartIDSuite",
+        "printedName": "SmartIDSuite",
         "children": [
           {
             "kind": "Var",
@@ -11429,14 +11429,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SmartIDSuiteSDK",
-                "printedName": "SmartIDSuite.SmartIDSuiteSDK",
-                "usr": "s:12SmartIDSuite0aB3SDKC"
+                "name": "SmartIDSuite",
+                "printedName": "SmartIDSuite.SmartIDSuite",
+                "usr": "s:12SmartIDSuiteAAC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12SmartIDSuite0aB3SDKC6sharedACvpZ",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC6sharedACvpZ",
+            "usr": "s:12SmartIDSuiteAAC6sharedABvpZ",
+            "mangledName": "$s12SmartIDSuiteAAC6sharedABvpZ",
             "moduleName": "SmartIDSuite",
             "static": true,
             "declAttributes": [
@@ -11455,14 +11455,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SmartIDSuiteSDK",
-                    "printedName": "SmartIDSuite.SmartIDSuiteSDK",
-                    "usr": "s:12SmartIDSuite0aB3SDKC"
+                    "name": "SmartIDSuite",
+                    "printedName": "SmartIDSuite.SmartIDSuite",
+                    "usr": "s:12SmartIDSuiteAAC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12SmartIDSuite0aB3SDKC6sharedACvgZ",
-                "mangledName": "$s12SmartIDSuite0aB3SDKC6sharedACvgZ",
+                "usr": "s:12SmartIDSuiteAAC6sharedABvgZ",
+                "mangledName": "$s12SmartIDSuiteAAC6sharedABvgZ",
                 "moduleName": "SmartIDSuite",
                 "static": true,
                 "implicit": true,
@@ -11485,8 +11485,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC13startLocationyyF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC13startLocationyyF",
+            "usr": "s:12SmartIDSuiteAAC13startLocationyyF",
+            "mangledName": "$s12SmartIDSuiteAAC13startLocationyyF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11514,8 +11514,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC10getRawDatayAA03GeteF8ResponseVAA0geF7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC10getRawDatayAA03GeteF8ResponseVAA0geF7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC10getRawDatayAA03GetdE8ResponseVAA0fdE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC10getRawDatayAA03GetdE8ResponseVAA0fdE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11542,8 +11542,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC9userLoginyAA04UserE8ResponseVAA0fE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC9userLoginyAA04UserE8ResponseVAA0fE7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC9userLoginyAA04UserD8ResponseVAA0eD7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC9userLoginyAA04UserD8ResponseVAA0eD7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11570,8 +11570,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC21userLoginVerificationyAA04UsereF8ResponseVAA0geF7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC21userLoginVerificationyAA04UsereF8ResponseVAA0geF7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC21userLoginVerificationyAA04UserdE8ResponseVAA0fdE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC21userLoginVerificationyAA04UserdE8ResponseVAA0fdE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11598,8 +11598,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC9syncTokenyAA04SyncE8ResponseVAA0fE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC9syncTokenyAA04SyncE8ResponseVAA0fE7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC9syncTokenyAA04SyncD8ResponseVAA0eD7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC9syncTokenyAA04SyncD8ResponseVAA0eD7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11626,8 +11626,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC11reSyncTokenyAA02ReeF8ResponseVAA0geF7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC11reSyncTokenyAA02ReeF8ResponseVAA0geF7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC11reSyncTokenyAA02RedE8ResponseVAA0fdE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC11reSyncTokenyAA02RedE8ResponseVAA0fdE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11654,8 +11654,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC13setAuthMethodyAA03SeteF8ResponseVAA0geF7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC13setAuthMethodyAA03SeteF8ResponseVAA0geF7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC13setAuthMethodyAA03SetdE8ResponseVAA0fdE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC13setAuthMethodyAA03SetdE8ResponseVAA0fdE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11682,8 +11682,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC13getAuthMethodyAA03GeteF8ResponseVAA0geF7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC13getAuthMethodyAA03GeteF8ResponseVAA0geF7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC13getAuthMethodyAA03GetdE8ResponseVAA0fdE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC13getAuthMethodyAA03GetdE8ResponseVAA0fdE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11710,8 +11710,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC14getTokenStatusyAA03GeteF8ResponseVAA0geF7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC14getTokenStatusyAA03GeteF8ResponseVAA0geF7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC14getTokenStatusyAA03GetdE8ResponseVAA0fdE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC14getTokenStatusyAA03GetdE8ResponseVAA0fdE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11738,8 +11738,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC11deleteTokenyAA06DeleteE8ResponseVAA0fE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC11deleteTokenyAA06DeleteE8ResponseVAA0fE7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC11deleteTokenyAA06DeleteD8ResponseVAA0eD7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC11deleteTokenyAA06DeleteD8ResponseVAA0eD7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11766,8 +11766,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC19validateTransactionyAA08ValidateE8ResponseVAA0fE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC19validateTransactionyAA08ValidateE8ResponseVAA0fE7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC19validateTransactionyAA08ValidateD8ResponseVAA0eD7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC19validateTransactionyAA08ValidateD8ResponseVAA0eD7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11794,8 +11794,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC8getTokenyAA03GetE8ResponseVAA0fE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC8getTokenyAA03GetE8ResponseVAA0fE7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC8getTokenyAA03GetD8ResponseVAA0eD7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC8getTokenyAA03GetD8ResponseVAA0eD7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11822,8 +11822,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC14subscribeTokenyAA09SubscribeE8ResponseVAA0fE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC14subscribeTokenyAA09SubscribeE8ResponseVAA0fE7RequestVYaF",
+            "usr": "s:12SmartIDSuiteAAC14subscribeTokenyAA09SubscribeD8ResponseVAA0eD7RequestVYaF",
+            "mangledName": "$s12SmartIDSuiteAAC14subscribeTokenyAA09SubscribeD8ResponseVAA0eD7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11862,8 +11862,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuite0aB3SDKC16configurePINFlowyySbAA7PinModeOYacF",
-            "mangledName": "$s12SmartIDSuite0aB3SDKC16configurePINFlowyySbAA7PinModeOYacF",
+            "usr": "s:12SmartIDSuiteAAC16configurePINFlowyySbAA7PinModeOYacF",
+            "mangledName": "$s12SmartIDSuiteAAC16configurePINFlowyySbAA7PinModeOYacF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11873,8 +11873,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:12SmartIDSuite0aB3SDKC",
-        "mangledName": "$s12SmartIDSuite0aB3SDKC",
+        "usr": "s:12SmartIDSuiteAAC",
+        "mangledName": "$s12SmartIDSuiteAAC",
         "moduleName": "SmartIDSuite",
         "declAttributes": [
           "Final",
@@ -13098,2051 +13098,2051 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/API\/HTTPClient.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/API\/HTTPClient.swift",
       "kind": "IntegerLiteral",
       "offset": 407,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 358,
       "length": 8,
       "value": "\"device\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 399,
       "length": 9,
       "value": "\"network\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 437,
       "length": 5,
       "value": "\"ssl\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 9,
       "value": "\"address\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 512,
       "length": 4,
       "value": "\"is\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 552,
       "length": 11,
       "value": "\"interface\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 596,
       "length": 9,
       "value": "\"carrier\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 643,
       "length": 14,
       "value": "\"isJailBroken\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 685,
       "length": 4,
       "value": "\"os\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 719,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 753,
       "length": 4,
       "value": "\"ID\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 787,
       "length": 10,
       "value": "\"hashUUID\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 835,
       "length": 14,
       "value": "\"manufacturer\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 883,
       "length": 13,
       "value": "\"geoLocation\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 927,
       "length": 10,
       "value": "\"security\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 975,
       "length": 17,
       "value": "\"isSharingScreen\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1036,
       "length": 23,
       "value": "\"isTeamViewerInstalled\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1100,
       "length": 20,
       "value": "\"isAnyDeskInstalled\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1217,
       "length": 25,
       "value": "\"isMultitaskingSupported\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1272,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1314,
       "length": 12,
       "value": "\"systemName\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1365,
       "length": 15,
       "value": "\"systemVersion\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1413,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1453,
       "length": 7,
       "value": "\"model\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1500,
       "length": 16,
       "value": "\"localizedModel\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1550,
       "length": 10,
       "value": "\"rawModel\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1605,
       "length": 6,
       "value": "\"UUID\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1648,
       "length": 18,
       "value": "\"isDeviceFaceDown\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1704,
       "length": 14,
       "value": "\"batteryLevel\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1756,
       "length": 14,
       "value": "\"batteryState\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1824,
       "length": 30,
       "value": "\"isProximityMonitoringEnabled\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1894,
       "length": 16,
       "value": "\"proximityState\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1940,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 1984,
       "length": 14,
       "value": "\"versionBuild\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2095,
       "length": 15,
       "value": "\"interfaceName\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2142,
       "length": 8,
       "value": "\"family\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2178,
       "length": 4,
       "value": "\"ip\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2214,
       "length": 8,
       "value": "\"public\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2253,
       "length": 7,
       "value": "\"local\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2339,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2378,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2417,
       "length": 6,
       "value": "\"code\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2456,
       "length": 9,
       "value": "\"network\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2501,
       "length": 12,
       "value": "\"allowsVoIP\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2595,
       "length": 9,
       "value": "\"proxied\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2633,
       "length": 5,
       "value": "\"tor\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2715,
       "length": 4,
       "value": "\"is\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2759,
       "length": 16,
       "value": "\"inTwoTimezones\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2807,
       "length": 8,
       "value": "\"region\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2848,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2887,
       "length": 6,
       "value": "\"city\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2925,
       "length": 8,
       "value": "\"postal\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 2968,
       "length": 11,
       "value": "\"continent\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 3013,
       "length": 10,
       "value": "\"timezone\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 3051,
       "length": 4,
       "value": "\"ip\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 3092,
       "length": 13,
       "value": "\"coordinates\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 3145,
       "length": 16,
       "value": "\"ISOCountryCode\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 3238,
       "length": 10,
       "value": "\"remoteIP\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Controllers\/DeviceInfoController.swift",
       "kind": "StringLiteral",
       "offset": 3283,
       "length": 14,
       "value": "\"certificates\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Encryption\/MD5.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Encryption\/MD5.swift",
       "kind": "IntegerLiteral",
       "offset": 8947,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Extensions\/Data.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Extensions\/Data.swift",
       "kind": "IntegerLiteral",
       "offset": 402,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Extensions\/Data.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Extensions\/Data.swift",
       "kind": "IntegerLiteral",
       "offset": 407,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Extensions\/Data.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Extensions\/Data.swift",
       "kind": "Array",
       "offset": 478,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Services\/KeychainService.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Services\/KeychainService.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 40,
       "value": "\"udid_\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Services\/KeychainService.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Services\/KeychainService.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/State\/SmartIDSuiteState.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/State\/SmartIDSuiteState.swift",
       "kind": "StringLiteral",
       "offset": 269,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/State\/SmartIDSuiteState.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/State\/SmartIDSuiteState.swift",
       "kind": "StringLiteral",
       "offset": 366,
       "length": 31,
       "value": "\"com.develsystems.smartidsuite\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/State\/SmartIDSuiteState.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/State\/SmartIDSuiteState.swift",
       "kind": "StringLiteral",
       "offset": 468,
       "length": 25,
       "value": "\"SmartIDSuite.authMethod\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Token\/TokenSubscription.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Token\/TokenSubscription.swift",
       "kind": "StringLiteral",
       "offset": 284,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Token\/TokenSubscription.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Token\/TokenSubscription.swift",
       "kind": "IntegerLiteral",
       "offset": 339,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Token\/TokenSubscription.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Token\/TokenSubscription.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Token\/TokenSubscription.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Token\/TokenSubscription.swift",
       "kind": "BooleanLiteral",
       "offset": 437,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "Array",
       "offset": 4193,
       "length": 129,
       "value": "[\"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\", \"I\", \"J\", \"K\", \"L\", \"M\", \"N\", \"O\", \"P\", \"Q\", \"R\", \"S\", \"T\", \"U\", \"V\", \"W\", \"X\", \"Y\", \"Z\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\"]"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "Array",
       "offset": 4421,
       "length": 129,
       "value": "[\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\", \"I\", \"J\", \"K\", \"L\", \"M\", \"N\", \"O\", \"P\", \"Q\", \"R\", \"S\", \"T\", \"U\", \"V\"]"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7311,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7578,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7581,
       "length": 2,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7585,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7588,
       "length": 2,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7591,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7594,
       "length": 2,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7648,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7651,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7654,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7658,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7661,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7664,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7667,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7671,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7674,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7677,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7679,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7683,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7686,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7689,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7692,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7716,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7719,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7722,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7725,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7729,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7732,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7735,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7738,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7742,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7745,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7748,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7792,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7795,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7798,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7802,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7805,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7808,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7811,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7815,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7818,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7821,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7823,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7827,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7830,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7833,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7836,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7860,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7863,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7866,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7869,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7873,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7876,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7879,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7882,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7886,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7889,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7892,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8776,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8779,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8782,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8785,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8789,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8792,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8795,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8798,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8802,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8805,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8850,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8853,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8856,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8860,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8863,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8866,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8869,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8873,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8876,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8879,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8882,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8886,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8889,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8892,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8895,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8919,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8922,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8925,
       "length": 2,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8928,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8932,
       "length": 2,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8935,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8938,
       "length": 2,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8994,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8997,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9000,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9004,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9007,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9010,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9013,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9017,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9020,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9023,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9026,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9030,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9033,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9036,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9039,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9063,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9066,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9069,
       "length": 2,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9072,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9076,
       "length": 2,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9079,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/ SeedConvertor\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 9082,
       "length": 2,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/TOTP\/Generator.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/TOTP\/Generator.swift",
       "kind": "IntegerLiteral",
       "offset": 2370,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/TOTP\/TOTP.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/TOTP\/TOTP.swift",
       "kind": "IntegerLiteral",
       "offset": 2324,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/TOTP\/TOTP.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Utils\/TOTP\/TOTP.swift",
       "kind": "IntegerLiteral",
       "offset": 2347,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/AuthChallengeResult.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/AuthChallengeResult.swift",
       "kind": "StringLiteral",
       "offset": 316,
       "length": 4,
       "value": "\"OK\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/AuthChallengeResult.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/AuthChallengeResult.swift",
       "kind": "StringLiteral",
       "offset": 430,
       "length": 26,
       "value": "\"Autenticación cancelada\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/AuthChallengeResult.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/AuthChallengeResult.swift",
       "kind": "StringLiteral",
       "offset": 572,
       "length": 22,
       "value": "\"Flujo no configurado\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/AuthChallengeResult.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/AuthChallengeResult.swift",
       "kind": "StringLiteral",
       "offset": 703,
       "length": 25,
       "value": "\"Fallo de autenticación\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/AuthChallengeResult.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/AuthChallengeResult.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 15,
       "value": "\"No disponible\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Errors.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 10,
       "value": "\"SDK-0001\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Errors.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 572,
       "length": 23,
       "value": "\"Error interno del SDK\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Interface.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Interface.swift",
       "kind": "IntegerLiteral",
       "offset": 821,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Interface.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Interface.swift",
       "kind": "IntegerLiteral",
       "offset": 884,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Logger.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 7,
       "value": "\"DEBUG\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Logger.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 315,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Logger.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 8,
       "value": "\"SUCESS\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Logger.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 368,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Logger.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 395,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 34,
       "value": "\"a8a732a5792dcc06403527a2dbf017e7\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 34,
       "value": "\"78f04fa57a71daaa8ecae3a42aba74ff\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
       "kind": "StringLiteral",
       "offset": 289,
       "length": 43,
       "value": "\"http:\/\/10.160.209.24\/DSToken.Api.SDK\/api\/\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
       "kind": "StringLiteral",
       "offset": 364,
       "length": 34,
       "value": "\"gJV3xOHUtw-je4E0eYvSOOrsm-oZBX-n\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
       "kind": "StringLiteral",
       "offset": 479,
       "length": 38,
       "value": "\"https:\/\/ipify-sta.smartidonline.com\/\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 294,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 28,
       "value": "\"https:\/\/api.tu-backend.com\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 31,
       "value": "\"com.develsystems.SmartIDSuite\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
       "offset": 591,
       "length": 16,
       "value": "\"DBSmartIDSuite\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
       "offset": 644,
       "length": 7,
       "value": "\"Token\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
       "offset": 691,
       "length": 6,
       "value": "\"momd\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 732,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 765,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
       "offset": 848,
       "length": 8,
       "value": "\"000000\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/ReSyncTokenModels.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/ReSyncTokenModels.swift",
       "kind": "StringLiteral",
       "offset": 839,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/SetAuthMethodModels.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/SetAuthMethodModels.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/SetAuthMethodModels.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/SetAuthMethodModels.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/SetAuthMethodModels.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/SetAuthMethodModels.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 3,
       "value": "\"2\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/SetAuthMethodModels.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/SetAuthMethodModels.swift",
       "kind": "StringLiteral",
       "offset": 315,
       "length": 3,
       "value": "\"3\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/SyncTokenModels.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/SyncTokenModels.swift",
       "kind": "StringLiteral",
       "offset": 2026,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/ValidateTransactionModels.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/ValidateTransactionModels.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/ValidateTransactionModels.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/ValidateTransactionModels.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 3,
       "value": "\"2\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/ValidateTransactionModels.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/ValidateTransactionModels.swift",
       "kind": "StringLiteral",
       "offset": 231,
       "length": 3,
       "value": "\"3\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 5,
       "value": "\"002\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 270,
       "length": 5,
       "value": "\"510\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 5,
       "value": "\"511\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 5,
       "value": "\"512\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 393,
       "length": 5,
       "value": "\"513\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 5,
       "value": "\"514\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 488,
       "length": 5,
       "value": "\"515\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 5,
       "value": "\"516\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 570,
       "length": 5,
       "value": "\"517\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 611,
       "length": 5,
       "value": "\"518\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 5,
       "value": "\"519\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 692,
       "length": 5,
       "value": "\"520\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 771,
       "length": 24,
       "value": "\"Carga de datos exitoso\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 826,
       "length": 24,
       "value": "\"Carga de datos fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 884,
       "length": 30,
       "value": "\"Creación de usuario fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 948,
       "length": 34,
       "value": "\"Recuperación de usuario fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1019,
       "length": 29,
       "value": "\"Edición de usuario fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1085,
       "length": 33,
       "value": "\"Eliminación de usuario fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1173,
       "length": 17,
       "value": "\"URL mal formado\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 18,
       "value": "\"BODY mal formado\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1278,
       "length": 28,
       "value": "\"Respuesta JSON mal formado\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1340,
       "length": 24,
       "value": "\"Petición no realizada\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1431,
       "length": 34,
       "value": "\"Generación de Otp Email Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1508,
       "length": 34,
       "value": "\"Generación de Otp Email Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1583,
       "length": 31,
       "value": "\"Obtener tipo de Token Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1653,
       "length": 31,
       "value": "\"Obtener tipo de Token Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1724,
       "length": 28,
       "value": "\"Generación de Otp Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1790,
       "length": 28,
       "value": "\"Generación de Otp Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1858,
       "length": 31,
       "value": "\"Eliminación de Token Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1927,
       "length": 31,
       "value": "\"Eliminación de Token Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 1991,
       "length": 34,
       "value": "\"Sincronización de Token Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2056,
       "length": 34,
       "value": "\"Sincronización de Token Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2125,
       "length": 37,
       "value": "\"Re Sincronización de Token Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2195,
       "length": 37,
       "value": "\"Re Sincronización de Token Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2279,
       "length": 37,
       "value": "\"Aprobación de Transacción Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2361,
       "length": 37,
       "value": "\"Aprobación de Transacción Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2445,
       "length": 24,
       "value": "\"Transacción Rechazada\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2514,
       "length": 31,
       "value": "\"Declinar Transacción Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2589,
       "length": 33,
       "value": "\"Desafiliación de Token Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2664,
       "length": 33,
       "value": "\"Desafiliación de Token Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2738,
       "length": 42,
       "value": "\"Obtención de Límite de Usuario Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2819,
       "length": 42,
       "value": "\"Obtención de Límite de Usuario Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2907,
       "length": 40,
       "value": "\"Generación de Lista de Tokens Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 2991,
       "length": 40,
       "value": "\"Generación de Lista de Tokens Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3069,
       "length": 27,
       "value": "\"Edición de Token Exitosa\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3132,
       "length": 27,
       "value": "\"Edición de Token Fallida\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3197,
       "length": 30,
       "value": "\"No se pudo editar el usuario\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3262,
       "length": 24,
       "value": "\"Parámetros inválidos\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3320,
       "length": 28,
       "value": "\"No se encontró la semilla\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3382,
       "length": 28,
       "value": "\"No se encontró el usuario\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3448,
       "length": 41,
       "value": "\"Ya se encuentra sincronizado un usuario\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3527,
       "length": 36,
       "value": "\"No se logró realizar la petición\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3599,
       "length": 57,
       "value": "\"El nombre del token debe contener entre 1-24 caracteres\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3690,
       "length": 66,
       "value": "\"El nombre del token debe contener solo caracteres alfanuméricos\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3790,
       "length": 28,
       "value": "\"No se encontraron usuarios\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3859,
       "length": 53,
       "value": "\"Has sobrepasado el límite de usuarios individuales\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 3953,
       "length": 51,
       "value": "\"Has sobrepasado el límite de usuarios jurídicos\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 4041,
       "length": 34,
       "value": "\"Formato inválido del código QR\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 4115,
       "length": 43,
       "value": "\"Formato inválido del límite de usuarios\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 4190,
       "length": 26,
       "value": "\"El alias ya está en uso\""
     },
     {
-      "filePath": "\/Users\/jramirez\/iosProjects\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
+      "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/DB\/MessagesConfig.swift",
       "kind": "StringLiteral",
       "offset": 4263,
       "length": 19,
