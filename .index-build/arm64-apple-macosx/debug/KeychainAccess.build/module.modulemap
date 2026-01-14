@@ -1,0 +1,4 @@
+module KeychainAccess {
+    header "/Users/ecardona/Development/ios/smaridsuiteios/SmartIDSuite-iOS/.index-build/arm64-apple-macosx/debug/KeychainAccess.build/KeychainAccess-Swift.h"
+    requires objc
+}

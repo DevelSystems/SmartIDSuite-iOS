@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ecardona/Development/ios/smaridsuiteios/SmartIDSuite-iOS/.index-build/arm64-apple-macosx/debug/KeychainAccess.build/master.swiftdeps"
+  },
+  "/Users/ecardona/Development/ios/smaridsuiteios/SmartIDSuite-iOS/.index-build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift": {
+    "dependencies": "/Users/ecardona/Development/ios/smaridsuiteios/SmartIDSuite-iOS/.index-build/arm64-apple-macosx/debug/KeychainAccess.build/Keychain.d",
+    "object": "/Users/ecardona/Development/ios/smaridsuiteios/SmartIDSuite-iOS/.index-build/arm64-apple-macosx/debug/KeychainAccess.build/Keychain.swift.o",
+    "swiftmodule": "/Users/ecardona/Development/ios/smaridsuiteios/SmartIDSuite-iOS/.index-build/arm64-apple-macosx/debug/KeychainAccess.build/Keychain~partial.swiftmodule",
+    "swift-dependencies": "/Users/ecardona/Development/ios/smaridsuiteios/SmartIDSuite-iOS/.index-build/arm64-apple-macosx/debug/KeychainAccess.build/Keychain.swiftdeps"
+  }
+}

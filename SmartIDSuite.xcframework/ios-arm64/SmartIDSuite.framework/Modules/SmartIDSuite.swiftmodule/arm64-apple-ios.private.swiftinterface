@@ -320,8 +320,8 @@ public struct ValidateTransactionResponse : Swift.Equatable {
   public let message: Swift.String
   public static func == (a: SmartIDSuite.ValidateTransactionResponse, b: SmartIDSuite.ValidateTransactionResponse) -> Swift.Bool
 }
-@_hasMissingDesignatedInitializers final public class SmartIDSuite {
-  public static let shared: SmartIDSuite.SmartIDSuite
+@_hasMissingDesignatedInitializers final public class SmartIDSuiteManager {
+  public static let shared: SmartIDSuite.SmartIDSuiteManager
   final public func startLocation()
   final public func getRawData(_ request: SmartIDSuite.GetRawDataRequest) async -> SmartIDSuite.GetRawDataResponse
   final public func userLogin(_ request: SmartIDSuite.UserLoginRequest) async -> SmartIDSuite.UserLoginResponse
