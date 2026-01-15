@@ -11419,8 +11419,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SmartIDSuite",
-        "printedName": "SmartIDSuite",
+        "name": "SmartIDSuiteIOS",
+        "printedName": "SmartIDSuiteIOS",
         "children": [
           {
             "kind": "Var",
@@ -11429,14 +11429,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SmartIDSuite",
-                "printedName": "SmartIDSuite.SmartIDSuite",
-                "usr": "s:12SmartIDSuiteAAC"
+                "name": "SmartIDSuiteIOS",
+                "printedName": "SmartIDSuite.SmartIDSuiteIOS",
+                "usr": "s:12SmartIDSuite0aB3IOSC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12SmartIDSuiteAAC6sharedABvpZ",
-            "mangledName": "$s12SmartIDSuiteAAC6sharedABvpZ",
+            "usr": "s:12SmartIDSuite0aB3IOSC6sharedACvpZ",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC6sharedACvpZ",
             "moduleName": "SmartIDSuite",
             "static": true,
             "declAttributes": [
@@ -11455,14 +11455,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SmartIDSuite",
-                    "printedName": "SmartIDSuite.SmartIDSuite",
-                    "usr": "s:12SmartIDSuiteAAC"
+                    "name": "SmartIDSuiteIOS",
+                    "printedName": "SmartIDSuite.SmartIDSuiteIOS",
+                    "usr": "s:12SmartIDSuite0aB3IOSC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12SmartIDSuiteAAC6sharedABvgZ",
-                "mangledName": "$s12SmartIDSuiteAAC6sharedABvgZ",
+                "usr": "s:12SmartIDSuite0aB3IOSC6sharedACvgZ",
+                "mangledName": "$s12SmartIDSuite0aB3IOSC6sharedACvgZ",
                 "moduleName": "SmartIDSuite",
                 "static": true,
                 "implicit": true,
@@ -11485,8 +11485,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC13startLocationyyF",
-            "mangledName": "$s12SmartIDSuiteAAC13startLocationyyF",
+            "usr": "s:12SmartIDSuite0aB3IOSC13startLocationyyF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC13startLocationyyF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11514,8 +11514,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC10getRawDatayAA03GetdE8ResponseVAA0fdE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC10getRawDatayAA03GetdE8ResponseVAA0fdE7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC10getRawDatayAA03GeteF8ResponseVAA0geF7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC10getRawDatayAA03GeteF8ResponseVAA0geF7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11542,8 +11542,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC9userLoginyAA04UserD8ResponseVAA0eD7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC9userLoginyAA04UserD8ResponseVAA0eD7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC9userLoginyAA04UserE8ResponseVAA0fE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC9userLoginyAA04UserE8ResponseVAA0fE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11570,8 +11570,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC21userLoginVerificationyAA04UserdE8ResponseVAA0fdE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC21userLoginVerificationyAA04UserdE8ResponseVAA0fdE7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC21userLoginVerificationyAA04UsereF8ResponseVAA0geF7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC21userLoginVerificationyAA04UsereF8ResponseVAA0geF7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11598,8 +11598,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC9syncTokenyAA04SyncD8ResponseVAA0eD7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC9syncTokenyAA04SyncD8ResponseVAA0eD7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC9syncTokenyAA04SyncE8ResponseVAA0fE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC9syncTokenyAA04SyncE8ResponseVAA0fE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11626,8 +11626,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC11reSyncTokenyAA02RedE8ResponseVAA0fdE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC11reSyncTokenyAA02RedE8ResponseVAA0fdE7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC11reSyncTokenyAA02ReeF8ResponseVAA0geF7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC11reSyncTokenyAA02ReeF8ResponseVAA0geF7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11654,8 +11654,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC13setAuthMethodyAA03SetdE8ResponseVAA0fdE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC13setAuthMethodyAA03SetdE8ResponseVAA0fdE7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC13setAuthMethodyAA03SeteF8ResponseVAA0geF7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC13setAuthMethodyAA03SeteF8ResponseVAA0geF7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11682,8 +11682,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC13getAuthMethodyAA03GetdE8ResponseVAA0fdE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC13getAuthMethodyAA03GetdE8ResponseVAA0fdE7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC13getAuthMethodyAA03GeteF8ResponseVAA0geF7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC13getAuthMethodyAA03GeteF8ResponseVAA0geF7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11710,8 +11710,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC14getTokenStatusyAA03GetdE8ResponseVAA0fdE7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC14getTokenStatusyAA03GetdE8ResponseVAA0fdE7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC14getTokenStatusyAA03GeteF8ResponseVAA0geF7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC14getTokenStatusyAA03GeteF8ResponseVAA0geF7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11738,8 +11738,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC11deleteTokenyAA06DeleteD8ResponseVAA0eD7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC11deleteTokenyAA06DeleteD8ResponseVAA0eD7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC11deleteTokenyAA06DeleteE8ResponseVAA0fE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC11deleteTokenyAA06DeleteE8ResponseVAA0fE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11766,8 +11766,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC19validateTransactionyAA08ValidateD8ResponseVAA0eD7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC19validateTransactionyAA08ValidateD8ResponseVAA0eD7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC19validateTransactionyAA08ValidateE8ResponseVAA0fE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC19validateTransactionyAA08ValidateE8ResponseVAA0fE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11794,8 +11794,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC8getTokenyAA03GetD8ResponseVAA0eD7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC8getTokenyAA03GetD8ResponseVAA0eD7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC8getTokenyAA03GetE8ResponseVAA0fE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC8getTokenyAA03GetE8ResponseVAA0fE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11822,8 +11822,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC14subscribeTokenyAA09SubscribeD8ResponseVAA0eD7RequestVYaF",
-            "mangledName": "$s12SmartIDSuiteAAC14subscribeTokenyAA09SubscribeD8ResponseVAA0eD7RequestVYaF",
+            "usr": "s:12SmartIDSuite0aB3IOSC14subscribeTokenyAA09SubscribeE8ResponseVAA0fE7RequestVYaF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC14subscribeTokenyAA09SubscribeE8ResponseVAA0fE7RequestVYaF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11862,8 +11862,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12SmartIDSuiteAAC16configurePINFlowyySbAA7PinModeOYacF",
-            "mangledName": "$s12SmartIDSuiteAAC16configurePINFlowyySbAA7PinModeOYacF",
+            "usr": "s:12SmartIDSuite0aB3IOSC16configurePINFlowyySbAA7PinModeOYacF",
+            "mangledName": "$s12SmartIDSuite0aB3IOSC16configurePINFlowyySbAA7PinModeOYacF",
             "moduleName": "SmartIDSuite",
             "declAttributes": [
               "Final",
@@ -11873,8 +11873,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:12SmartIDSuiteAAC",
-        "mangledName": "$s12SmartIDSuiteAAC",
+        "usr": "s:12SmartIDSuite0aB3IOSC",
+        "mangledName": "$s12SmartIDSuite0aB3IOSC",
         "moduleName": "SmartIDSuite",
         "declAttributes": [
           "Final",

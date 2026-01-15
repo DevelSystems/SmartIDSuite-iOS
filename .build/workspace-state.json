@@ -1,0 +1,40 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "smartidsuite-ios",
+          "kind" : "root",
+          "location" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS",
+          "name" : "SmartIDSuite-iOS"
+        },
+        "path" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/SmartIDSuite.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "SmartIDSuite"
+      }
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "keychainaccess",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kishikawakatsumi/KeychainAccess",
+          "name" : "KeychainAccess"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "84e546727d66f1adc5439debad16270d0fdd04e7",
+            "version" : "4.2.2"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "KeychainAccess"
+      }
+    ]
+  },
+  "version" : 6
+}
