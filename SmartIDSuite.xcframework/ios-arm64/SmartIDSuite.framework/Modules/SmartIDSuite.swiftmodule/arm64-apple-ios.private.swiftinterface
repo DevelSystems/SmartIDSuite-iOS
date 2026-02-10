@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SmartIDSuite
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SmartIDSuite
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CommonCrypto
 import CoreData
 import CoreLocation
@@ -62,7 +62,9 @@ public protocol AuthChallengeProvider {
 }
 final public class DefaultAuthChallengeProvider : SmartIDSuite.AuthChallengeProvider {
   final public var pinFlow: ((SmartIDSuite.PinMode) async -> Swift.Bool)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(pinFlow: ((SmartIDSuite.PinMode) async -> Swift.Bool)? = nil)
+  #endif
   final public func requestBiometric(reason: Swift.String) async -> SmartIDSuite.AuthChallengeResult
   final public func requestPIN(reason: Swift.String) async -> SmartIDSuite.AuthChallengeResult
   @objc deinit
@@ -78,9 +80,11 @@ public enum SmartIDSuiteError : Swift.Error {
 public struct SDKInternalError : Swift.Error, Foundation.LocalizedError {
   public let code: Swift.String
   public let message: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
   public init(code: Swift.String = "SDK-0001", message: Swift.String = "Error interno del SDK")
 }
 public struct SmartIDSuiteConfig {
@@ -104,9 +108,11 @@ public enum UserLoginError : Swift.Error, Foundation.LocalizedError, Swift.Equat
   case bankUnavailable
   case ciphersUnavailable
   case unknown(code: Swift.String, message: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
   public static func == (a: SmartIDSuite.UserLoginError, b: SmartIDSuite.UserLoginError) -> Swift.Bool
 }
 public struct DeleteTokenRequest : Swift.Encodable {
@@ -189,7 +195,9 @@ public struct ReSyncTokenCompleteRequest : Swift.Encodable {
   public let playerId: Swift.String?
   public let timeStamp: Swift.String
   public let referenceChannel: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(users: [SmartIDSuite.Users], deviceId: Swift.String, playerId: Swift.String? = "0", timestamp: Swift.String, referenceChannel: Swift.String)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct Users : Swift.Encodable {
@@ -203,7 +211,9 @@ public enum AuthMethod : Swift.String, Swift.Codable, Swift.CaseIterable {
   case FACEPHI
   case PATTERN
   case BIOMETRIC
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [SmartIDSuite.AuthMethod]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [SmartIDSuite.AuthMethod] {
@@ -263,7 +273,9 @@ public struct SyncTokenCompleteRequest : Swift.Encodable {
   public let playerId: Swift.String?
   public let timeStamp: Swift.String
   public let referenceChannel: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(user: Swift.String, channel: Swift.String, checkIdentity: Swift.Bool, document: Swift.String? = nil, session: Swift.String, deviceId: Swift.String, playerId: Swift.String? = "0", timestamp: Swift.String, referenceChannel: Swift.String)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct UserLoginRequest : Swift.Encodable {
@@ -296,7 +308,9 @@ public enum ActionEnum : Swift.String, Swift.Codable, Swift.CaseIterable {
   case APPROVE
   case DECLINE
   case REPPORT
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [SmartIDSuite.ActionEnum]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [SmartIDSuite.ActionEnum] {
@@ -338,52 +352,76 @@ public struct ValidateTransactionResponse : Swift.Equatable {
   final public func configurePINFlow(_ flow: @escaping (SmartIDSuite.PinMode) async -> Swift.Bool)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc(Token) public class Token : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias TokenCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(Token) nonisolated public class Token : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias TokenCoreDataPropertiesSet = Foundation.NSSet
 extension SmartIDSuite.Token {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SmartIDSuite.Token>
-  @objc @NSManaged dynamic public var authMethod: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var authMethod: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var channel: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var channel: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var createdAt: Foundation.Date? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var createdAt: Foundation.Date? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var id: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var id: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var secret: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var secret: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var session: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var session: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var tokenName: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var tokenName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var type: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var type: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var username: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var username: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension SmartIDSuite.Token : Swift.Identifiable {
   public typealias ID = Swift.String?
 }
+public typealias DBSmartIDSuiteFoundationFrameworkSet = Foundation.NSSet
+public typealias DBSmartIDSuiteCoreDataFrameworkManagedObject = CoreData.NSManagedObject
 extension SmartIDSuite.PinMode : Swift.Equatable {}
 extension SmartIDSuite.PinMode : Swift.Hashable {}
 extension SmartIDSuite.AuthMethod : Swift.Equatable {}

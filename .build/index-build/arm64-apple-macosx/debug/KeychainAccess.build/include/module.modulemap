@@ -1,0 +1,3 @@
+module KeychainAccess {
+    header "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/include/KeychainAccess-Swift.h"
+}
