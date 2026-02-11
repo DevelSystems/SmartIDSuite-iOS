@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		bHUUMk+VDwg1QXeKQxhCuFTBPa4=
+		X4cLClTzeBsY9rAlhugLj+BvpmQ=
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TETXudwi6jpnKR5no/mYQXGg/KE=
+		4cTXc9YgIm+XyhDpzvmjQpQo9sc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vhRLnQvOdwudYZo54OQ1DLKRaR5XBlzC7lmn4kqHFjQ=
+			E3QKJzgZo3W2Adzs5Pv8Kffz3cWKCnd+tCbAjnLJjj0=
 			</data>
 		</dict>
 		<key>Modules/SmartIDSuite.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			okFlGdbDPe9/3Pbqp6G/6r/nR/mE2zauNcPufw0NLHQ=
+			Hg0uWkOgwrM+1LJcD2hzVhDF3dosnYAGfX/MyK4cYJc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

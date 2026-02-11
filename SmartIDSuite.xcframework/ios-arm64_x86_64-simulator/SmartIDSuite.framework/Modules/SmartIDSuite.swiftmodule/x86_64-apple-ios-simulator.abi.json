@@ -15388,9 +15388,9 @@
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 385,
       "length": 43,
-      "value": "\"http:\/\/10.160.209.24\/DSToken.Api.SDK\/api\/\""
+      "value": "\"http:\/\/10.161.208.25\/DSToken.SDK_DMZ\/api\/\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
