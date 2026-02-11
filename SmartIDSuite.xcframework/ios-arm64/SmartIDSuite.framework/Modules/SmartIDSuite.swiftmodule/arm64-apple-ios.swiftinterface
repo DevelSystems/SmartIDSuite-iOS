@@ -173,9 +173,34 @@ public struct GetTokenStatusRequest : Swift.Encodable {
   public init(user: Swift.String, channel: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
 }
+public struct UserStatusDetail : Swift.Codable, Swift.Equatable {
+  public let code: Swift.String
+  public let detail: Swift.String
+  public static func == (a: SmartIDSuite.UserStatusDetail, b: SmartIDSuite.UserStatusDetail) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AffiliationStatusDetail : Swift.Codable, Swift.Equatable {
+  public let code: Swift.String
+  public let detail: Swift.String
+  public static func == (a: SmartIDSuite.AffiliationStatusDetail, b: SmartIDSuite.AffiliationStatusDetail) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TokenStatusData : Swift.Codable, Swift.Equatable {
+  public let userStatus: SmartIDSuite.UserStatusDetail
+  public let affiliationStatus: SmartIDSuite.AffiliationStatusDetail
+  public static func == (a: SmartIDSuite.TokenStatusData, b: SmartIDSuite.TokenStatusData) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct GetTokenStatusResponse : Swift.Equatable {
   public let code: Swift.String
   public let message: Swift.String
+  public let data: SmartIDSuite.TokenStatusData?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(code: Swift.String, message: Swift.String, data: SmartIDSuite.TokenStatusData? = nil)
+  #endif
   public static func == (a: SmartIDSuite.GetTokenStatusResponse, b: SmartIDSuite.GetTokenStatusResponse) -> Swift.Bool
 }
 public struct ReSyncTokenRequest : Swift.Encodable {
