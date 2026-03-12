@@ -19,27 +19,27 @@
   "swiftCommands" : {
     "C.KeychainAccess-arm64-apple-macosx26.0-debug.module" : {
       "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
-      "fileList" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/sources",
-      "importPath" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "fileList" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/sources",
+      "importPath" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/Modules",
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift"
+          "name" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+          "name" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
         },
         {
           "kind" : "file",
-          "name" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/sources"
+          "name" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/sources"
         }
       ],
       "isLibrary" : true,
       "moduleName" : "KeychainAccess",
-      "moduleOutputPath" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/KeychainAccess.swiftmodule",
+      "moduleOutputPath" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/KeychainAccess.swiftmodule",
       "objects" : [
-        "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/Keychain.swift.o"
+        "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/Keychain.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -47,8 +47,6 @@
         "-incremental",
         "-enable-batch-mode",
         "-serialize-diagnostics",
-        "-index-store-path",
-        "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/index/store",
         "-Onone",
         "-enable-testing",
         "-j8",
@@ -56,12 +54,12 @@
         "-DDEBUG",
         "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
         "-module-cache-path",
-        "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
         "-parseable-output",
         "-parse-as-library",
         "-emit-objc-header",
         "-emit-objc-header-path",
-        "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/include/KeychainAccess-Swift.h",
+        "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/include/KeychainAccess-Swift.h",
         "-swift-version",
         "5",
         "-Xfrontend",
@@ -103,18 +101,18 @@
         "-g",
         "-suppress-warnings"
       ],
-      "outputFileMapPath" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/output-file-map.json",
+      "outputFileMapPath" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/KeychainAccess.swiftmodule"
+          "name" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/KeychainAccess.swiftmodule"
         }
       ],
       "prepareForIndexing" : true,
       "sources" : [
-        "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift"
+        "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift"
       ],
-      "tempsPath" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build",
+      "tempsPath" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build",
       "wholeModuleOptimization" : false
     }
   },
@@ -127,16 +125,14 @@
       "-module-name",
       "KeychainAccess",
       "-c",
-      "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift",
+      "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift",
       "-I",
-      "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/Modules",
       "-target",
       "arm64-apple-macosx10.13",
       "-incremental",
       "-enable-batch-mode",
       "-serialize-diagnostics",
-      "-index-store-path",
-      "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/index/store",
       "-Onone",
       "-enable-testing",
       "-j8",
@@ -144,12 +140,12 @@
       "-DDEBUG",
       "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
       "-module-cache-path",
-      "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
       "-parseable-output",
       "-parse-as-library",
       "-emit-objc-header",
       "-emit-objc-header-path",
-      "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/include/KeychainAccess-Swift.h",
+      "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/include/KeychainAccess-Swift.h",
       "-swift-version",
       "5",
       "-Xfrontend",
@@ -211,7 +207,7 @@
     }
   },
   "writeCommands" : {
-    "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/sources" : {
+    "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/sources" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -220,12 +216,12 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift"
+          "name" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift"
         }
       ],
-      "outputFilePath" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/sources"
+      "outputFilePath" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/KeychainAccess.build/sources"
     },
-    "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+    "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
       "alwaysOutOfDate" : true,
       "inputs" : [
         {
@@ -237,7 +233,7 @@
           "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
         }
       ],
-      "outputFilePath" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+      "outputFilePath" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
     }
   }
 }

@@ -10,10 +10,10 @@
         "packageRef" : {
           "identity" : "smartidsuite-ios",
           "kind" : "root",
-          "location" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS",
+          "location" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS",
           "name" : "SmartIDSuite-iOS"
         },
-        "path" : "/Users/ecardona/Development/ios/SmartIDSuite-iOS/SmartIDSuite.xcframework",
+        "path" : "/Users/ecardona/Development/ios/distribuciones git sdks/SmartIDSuite-iOS/SmartIDSuite.xcframework",
         "source" : {
           "type" : "local"
         },

@@ -15388,9 +15388,9 @@
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
       "kind": "StringLiteral",
-      "offset": 385,
+      "offset": 289,
       "length": 43,
-      "value": "\"http:\/\/10.161.208.25\/DSToken.SDK_DMZ\/api\/\""
+      "value": "\"http:\/\/10.160.209.24\/DSToken.Api.SDK\/api\/\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
@@ -15410,76 +15410,76 @@
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
       "offset": 170,
-      "length": 7,
-      "value": "\"1.0.0\""
+      "length": 8,
+      "value": "\"1.0.10\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
-      "offset": 216,
+      "offset": 217,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 294,
+      "offset": 295,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
-      "offset": 461,
+      "offset": 462,
       "length": 28,
       "value": "\"https:\/\/api.tu-backend.com\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
-      "offset": 527,
+      "offset": 528,
       "length": 31,
       "value": "\"com.develsystems.SmartIDSuite\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
-      "offset": 591,
+      "offset": 592,
       "length": 16,
       "value": "\"DBSmartIDSuite\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
-      "offset": 644,
+      "offset": 645,
       "length": 7,
       "value": "\"Token\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
-      "offset": 691,
+      "offset": 692,
       "length": 6,
       "value": "\"momd\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 732,
+      "offset": 733,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 765,
+      "offset": 766,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
-      "offset": 848,
+      "offset": 849,
       "length": 8,
       "value": "\"000000\""
     },
