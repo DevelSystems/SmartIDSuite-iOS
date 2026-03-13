@@ -10981,8 +10981,8 @@
           },
           {
             "kind": "Var",
-            "name": "REPPORT",
-            "printedName": "REPPORT",
+            "name": "REPORT",
+            "printedName": "REPORT",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -11012,8 +11012,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12SmartIDSuite10ActionEnumO7REPPORTyA2CmF",
-            "mangledName": "$s12SmartIDSuite10ActionEnumO7REPPORTyA2CmF",
+            "usr": "s:12SmartIDSuite10ActionEnumO6REPORTyA2CmF",
+            "mangledName": "$s12SmartIDSuite10ActionEnumO6REPORTyA2CmF",
             "moduleName": "SmartIDSuite"
           },
           {
@@ -15388,9 +15388,9 @@
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
       "kind": "StringLiteral",
-      "offset": 385,
+      "offset": 289,
       "length": 43,
-      "value": "\"http:\/\/10.161.208.25\/DSToken.SDK_DMZ\/api\/\""
+      "value": "\"http:\/\/10.160.209.24\/DSToken.Api.SDK\/api\/\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
@@ -15411,7 +15411,7 @@
       "kind": "StringLiteral",
       "offset": 170,
       "length": 8,
-      "value": "\"1.0.11\""
+      "value": "\"1.0.12\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
@@ -15542,7 +15542,7 @@
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Data\/Models\/ValidateTransactionModels.swift",
       "kind": "StringLiteral",
-      "offset": 231,
+      "offset": 230,
       "length": 3,
       "value": "\"3\""
     },

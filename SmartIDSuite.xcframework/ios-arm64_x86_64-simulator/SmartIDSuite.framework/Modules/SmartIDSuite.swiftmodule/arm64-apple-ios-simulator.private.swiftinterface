@@ -332,7 +332,7 @@ public struct UserLoginVerificationResponse : Swift.Equatable {
 public enum ActionEnum : Swift.String, Swift.Codable, Swift.CaseIterable {
   case APPROVE
   case DECLINE
-  case REPPORT
+  case REPORT
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
