@@ -18479,15 +18479,15 @@
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/Secrets.swift",
       "kind": "StringLiteral",
       "offset": 960,
-      "length": 35,
-      "value": "\"https:\/\/stats.banrural.com.gt\/ip\/\""
+      "length": 34,
+      "value": "\"https:\/\/stats.banrural.com.gt\/ip\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 8,
-      "value": "\"1.0.16\""
+      "value": "\"1.0.17\""
     },
     {
       "filePath": "\/Users\/ecardona\/Development\/ios\/DSAnalytics.SmartIdSuite.iOSSDK\/SmartIDSuite\/Core\/SmartIDSuiteConfig.swift",
